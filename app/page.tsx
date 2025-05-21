@@ -4,6 +4,7 @@ import Homecomoponet from "./Sections/Home";
 import Project from "./Sections/Project";
 import Contact from "./Sections/Contact";
 import Footer from "./Sections/Fotter";
+import About from "./Sections/About";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
 
     <Homecomoponet />
 
+    
+    <About />
     <Project/>
 
     <Contact/>
