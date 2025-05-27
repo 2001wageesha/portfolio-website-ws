@@ -11,10 +11,13 @@ const Volunteer = () => {
         {/* Stack 1 */}
         <div className="col-span-4 w-full h-full ">
           <div className="w-full h-full bg-[rgba(183,121,46,0.15)] rounded-md p-2 md:pl-4">
-            <h1 className="text-white text-xl font-medium py-1">Committee Chair - Open Dev Summit'25</h1>
-            <h5 className='py-1'>FOSS community, University of Kelaniya</h5>
-            <p className="text-gray-100 sm:text-sm text-xs">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt corporis consequuntur voluptate nulla iusto quam ut quasi, eaque quas omnis vero totam ullam, reprehenderit ratione pariatur accusamus suscipit odit nostrum?
+            <h1 className="text-white text-xl font-medium py-1 h1-text">Committee Chair - Open Dev Summit'25</h1>
+            <h5 className='py-1'>FOSS community, University of Kelaniya </h5>
+            <p className="text-gray-100 sm:text-sm text-xs pb-4">
+               Leading the organizing committee for a open Dev Summit'25. Coordinated cross
+               functional teams. A dynamic six-day program organized by the  FOSS community, University of Kelaniya
+               featuring hands-on workshops, expert-led sessions, and an exclusive developer summit. Open Dev Summit'25
+               bridges the gap between academic learning and industry demands, preparing students from all backgrounds for successful careers in tech.
             </p>
           </div>
         </div>
@@ -37,10 +40,12 @@ const Volunteer = () => {
 
         <div className="col-span-4 w-full h-full">
           <div className="w-full h-full bg-[rgba(183,121,46,0.15)] rounded-md p-2 md:pl-4">
-            <h1 className="text-white text-xl font-medium py-2">Moderaor</h1>
+            <h1 className="text-white text-xl font-medium py-1 h1-text">Moderaor</h1>
             <h5 className='py-1'>FOSS community, University of Kelaniya</h5>
-            <p className="text-gray-100 sm:text-sm text-xs">
-              aaaaaaaaaaaaaaaaaaaaaaaaaa
+            <p className="text-gray-100 sm:text-sm text-xs pb-4">
+              Coordinated and facilitated both online and physical workshops, as well as the Annual
+              General Meeting (AGM), ensuring the effective delivery of content and active stakeholder
+              engagement
             </p>
           </div>
         </div>
@@ -49,10 +54,14 @@ const Volunteer = () => {
         {/* Stack 3 */}
         <div className="col-span-4 w-full h-full ">
           <div className="w-full h-full bg-[rgba(183,121,46,0.15)] rounded-md p-2 md:pl-4">
-            <h1 className="text-white text-xl font-medium py-1">Committee Chair - Open Dev Summit'25</h1>
-            <h5 className='py-1'>FOSS community, University of Kelaniya</h5>
-            <p className="text-gray-100 sm:text-sm text-xs">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt corporis consequuntur voluptate nulla iusto quam ut quasi, eaque quas omnis vero totam ullam, reprehenderit ratione pariatur accusamus suscipit odit nostrum?
+            <h1 className="text-white text-xl font-medium py-1 h1-text"> Membership Coordinator, Elegenza'25</h1>
+            <h5 className='py-1'>Leo Club, University of Kelaniya</h5>
+            <p className="text-gray-100 sm:text-sm text-xs pb-4">
+               Coordinated the organization of an inter-university talent show, providing a platform for
+               students to showcase their talents.
+               Planned and coordinated events while securing sponsorships through company
+               partnerships, ensuring financial support and smooth execution aligned with
+               organizational goals
             </p>
           </div>
         </div>

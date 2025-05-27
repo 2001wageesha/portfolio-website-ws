@@ -9,19 +9,19 @@ const Project = () => {
       imageUrl: 'https://via.placeholder.com/300x200'
     },
     {
-      title: 'E-commerce App',
-      description: 'An online shopping platform with a responsive UI and payment integration.',
+      title: ' Smart Bicycle Sharing System',
+      description: 'A user-friendly mobile application that allows users to locate, reserve, and access bicycles from designated stations. ',
       imageUrl: 'https://via.placeholder.com/300x200'
     },
     {
-      title: 'Blog Platform',
-      description: 'A full-stack blog platform where users can publish and comment on articles.',
-      imageUrl: 'https://via.placeholder.com/300x200'
+      title: 'Online Food Ordering System',
+      description: 'A responsive website that allows users to browse menus, place orders, and track them in real time. ',
+      imageUrl: 'https://github.com/2001wageesha/portfolio-website-ws/blob/main/images_portfolio/Screenshot%202025-05-11%20180309.png?raw=true'
     },
 
     {
-      title: 'FeedEase',
-      description: 'Feadding applications for puppies',
+      title: 'Contact List Application',
+      description: 'A contact management application using Kotlin, allowing users to store,organize, and search contact information easily.',
       imageUrl: 'https://www.google.com/imgres?q=feedease&imgurl=https%3A%2F%2Fstatic.wixstatic.com%2Fmedia%2Facd895_2d38a6ca74a4445494dc4448b5bb7129~mv2.png%2Fv1%2Ffit%2Fw_500%2Ch_500%2Cq_90%2Ffile.png&imgrefurl=https%3A%2F%2Fwww.foxcopets.com%2Fproduct-page%2Frojeco-automatic-cat-feeder-pet-smart-cat-food-kibble-dispenser-remote-control-w&docid=QKUTXlVnPPc7aM&tbnid=xr8OGnpd5o9VdM&vet=12ahUKEwi6woa2vfWMAxVyxDgGHbS4CNkQM3oECEwQAA..i&w=378&h=500&hcb=2&itg=1&ved=2ahUKEwi6woa2vfWMAxVyxDgGHbS4CNkQM3oECEwQAAhttps://media.4-paws.org/0/c/7/e/0c7e157aabf6ef2f316c05607813b130c994f293/VIER%20PFOTEN_2019-03-15_001-2886x1999.jpg'
     }
   ];
@@ -29,7 +29,7 @@ const Project = () => {
   return (
     // <div className="max-w-6xl mx-auto px-4 pt-10 pb-8 scroll-mt-20" id="project">
     <div className="py-16 px-4 max-w-6xl mx-auto scroll-mt-20" id="project">
-      <h2 className="text-4xl font-bold text-center mb-10">My Projects</h2>
+      <h2 className="text-4xl font-bold text-center mb-10 h1-text">My Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {projectData.map((project, index) => (
           <ProjectCard
