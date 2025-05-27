@@ -1,6 +1,5 @@
 "use client";
 import React, { useState } from 'react';
-
 import { FaBars, FaTimes } from 'react-icons/fa';
 
 const Navbar = () => {
@@ -11,18 +10,45 @@ const Navbar = () => {
   // Close mobile menu when a link is clicked
   const handleLinkClick = () => setIsOpen(false);
 
+const navLinks = [
+  { name: 'Home', href: '#home' },
+  { name: 'About', href: '#about' },
+  { name: 'Project', href: '#project' },
+  { name: 'Volunteer', href: '#volunteer' },  
+  { name: 'Contact', href: '#contact' },
+];
+
+
   return (
-    <nav className="bg-blue-300 text-white p-4 fixed top-0 left-0 w-full z-50">
-      <div className="max-w-6xl mx-auto flex justify-between items-center">
+    <nav
+      style={{
+        background: 'linear-gradient(90deg, #1F2937 0%, #2C3E50 40%, #111827 100%)'
+      }}
+      className="text-white p-6 fixed top-0 left-0 w-full z-50"
+    >
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
         {/* Logo */}
-        <a href="#fotter" className="text-2xl font-bold hover:underline" >Wageesha</a>
+        <a
+          href="#fotter"
+          className="text-3xl font-bold px-3 py-1 rounded-md border-b-2 border-transparent hover:border-orange-500 transition-all duration-300"
+        >
+          Wageesha
+        </a>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex space-x-6">
-          <a href="#home" className="hover:underline">Home</a>
-          <a href="#about" className="hover:underline">About</a>
-          <a href="#project" className="hover:underline">Project</a>
-          <a href="#contact" className="hover:underline">Contact</a>
+        <div className="hidden md:flex space-x-6 text-xl">
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="px-3 py-2 rounded-md border-b-2 border-transparent hover:border-orange-500 md:border-b-4 bg-gray-800
+               hover:bg-gray-700 transition-all duration-300"
+
+
+            >
+              {link.name}
+            </a>
+          ))}
         </div>
 
         {/* Mobile menu icon */}
@@ -36,10 +62,17 @@ const Navbar = () => {
       {/* Mobile dropdown menu */}
       {isOpen && (
         <div className="md:hidden mt-2 flex flex-col space-y-2 px-4 pb-4">
-          <a href="#home" onClick={handleLinkClick} className="hover:underline">Home</a>
-          <a href="#about" onClick={handleLinkClick} className="hover:underline">About</a>
-          <a href="#project" onClick={handleLinkClick} className="hover:underline">Project</a>
-          <a href="#contact" onClick={handleLinkClick} className="hover:underline">Contact</a>
+          {navLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              onClick={handleLinkClick}
+              className="px-3 py-2 rounded-md border-b-2 border-transparent hover:border-orange-500 md:border-b-4
+               bg-gray-800 hover:bg-gray-700 transition-all duration-300"
+            >
+              {link.name}
+            </a>
+          ))}
         </div>
       )}
     </nav>

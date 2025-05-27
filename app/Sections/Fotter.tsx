@@ -2,7 +2,10 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="bg-gray-800 text-gray-300 py-6 mt-10 pt-35" id='fotter'>
+    //<div className="bg-gray-800 text-gray-300 py-6 mt-10 pt-35 scroll-mt-20" id='fotter'>
+    <div className="bg-gray-800 text-gray-300 py-6 mt-10 pt-35 scroll-mt-20" id='fotter'>
+
+      py-16 px-4 max-w-6xl mx-auto scroll-mt-20 bg-gray-800 text-gray-300
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center px-4">
         
         <div className="text-center md:text-left">

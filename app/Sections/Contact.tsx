@@ -2,8 +2,11 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="max-w-2xl mx-auto px-4 pt-24 md:pt-32" id="contact">
-      <h2 className="text-4xl font-bold text-center mb-8">Contact Me</h2>
+  // <div className="max-w-2xl mx-auto px-4 pt-24 md:pt-32 scroll-mt-20" id="contact">
+  <div className="py-16 px-4 max-w-6xl mx-auto scroll-mt-20" id="contact">
+ 
+    
+      <h2 className="text-4xl font-bold text-center mb-8 h1-text">Contact Me</h2>
       <form className="space-y-6">
         <div>
           <label className="block mb-2 text-sm font-medium text-gray-700">Name</label>
