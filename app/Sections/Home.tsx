@@ -12,7 +12,7 @@ const HomeComponent = () => {
         {/* Left side: Photo */}
         <div className="flex-shrink-0 mb-8 md:mb-0">
           <img 
-            src="https://media.licdn.com/dms/image/v2/D5603AQEIXElrr1Ui0A/profile-displayphoto-shrink_400_400/B56ZaRTBpVHUAg-/0/1746194407534?e=1753315200&v=beta&t=T8EQ4TxbQq2GwC9eZbWNMSep6ZKEYMWWNsf7ZDEcXBQ" 
+            src="/images/me.jpg" 
             alt="My Profile" 
             className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full object-cover"
           />
