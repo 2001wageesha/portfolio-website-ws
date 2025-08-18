@@ -7,31 +7,37 @@ const Contact = () => {
  
     
       <h2 className="text-4xl font-bold text-center mb-8 h1-text">Contact Me</h2>
-      <form className="space-y-6">
+      <form className="space-y-6" action="https://formspree.io/f/xzzvqkzo" method="POST">
         <div>
-          <label className="block mb-2 text-sm font-medium text-gray-700">Name</label>
+          {/* <label className="block mb-2 text-sm font-medium text-gray-700">Name</label> */}
           <input
             type="text"
-            placeholder="Your Name"
+            name="name"  
+            placeholder="Name"
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
           />
         </div>
 
         <div>
-          <label className="block mb-2 text-sm font-medium text-gray-700">Email</label>
+          {/* <label className="block mb-2 text-sm font-medium text-gray-700">Email</label> */}
           <input
             type="email"
-            placeholder="your@email.com"
+            name="email"
+            placeholder="abc@email.com"
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
           />
         </div>
 
         <div>
-          <label className="block mb-2 text-sm font-medium text-gray-700">Message</label>
+          {/* <label className="block mb-2 text-sm font-medium text-gray-700">Message</label> */}
           <textarea
             rows={5}
+            name="message"
             placeholder="Your message..."
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            required
           ></textarea>
         </div>
 
