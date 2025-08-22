@@ -27,7 +27,7 @@ const HomeComponent = () => {
             
           </h2>
           <p className="text-lg">
-            I’m a skilled Frontend Developer passionate about creating intuitive, responsive user interfaces.<br />
+            I&apos;m a skilled Frontend Developer passionate about creating intuitive, responsive user interfaces.<br />
             As a Business Analyst, I bridge the gap between technical teams and stakeholders to deliver effective solutions.
 
           </p>

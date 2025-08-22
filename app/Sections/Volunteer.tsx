@@ -14,9 +14,9 @@ const Volunteer = () => {
             <h1 className="text-white text-xl font-medium py-1 h1-text">Committee Chair - Open Dev Summit'25</h1>
             <h5 className='py-1'>FOSS community, University of Kelaniya </h5>
             <p className="text-gray-100 sm:text-sm text-xs pb-4">
-               Leading the organizing committee for a open Dev Summit'25. Coordinated cross
+               Leading the organizing committee for a open Dev Summit 2025. Coordinated cross
                functional teams. A dynamic six-day program organized by the  FOSS community, University of Kelaniya
-               featuring hands-on workshops, expert-led sessions, and an exclusive developer summit. Open Dev Summit'25
+               featuring hands-on workshops, expert-led sessions, and an exclusive developer summit. Open Dev Summit 2025
                bridges the gap between academic learning and industry demands, preparing students from all backgrounds for successful careers in tech.
             </p>
           </div>
@@ -45,7 +45,7 @@ const Volunteer = () => {
             <p className="text-gray-100 sm:text-sm text-xs pb-4">
               Coordinated and facilitated both online and physical workshops, as well as the Annual
               General Meeting (AGM), ensuring the effective delivery of content and active stakeholder
-              engagement
+              engagement.
             </p>
           </div>
         </div>
@@ -61,7 +61,7 @@ const Volunteer = () => {
                students to showcase their talents.
                Planned and coordinated events while securing sponsorships through company
                partnerships, ensuring financial support and smooth execution aligned with
-               organizational goals
+               organizational goals.
             </p>
           </div>
         </div>
