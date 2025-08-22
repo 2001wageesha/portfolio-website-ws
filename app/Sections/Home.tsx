@@ -21,16 +21,15 @@ const HomeComponent = () => {
         {/* Right side: Text content */}
         <div className=" text-center md:text-left max-w-2xl md:ml-4">
           <h1 className="h1-text text-5xl font-bold mb-4">Hello</h1>
-          <h1 className="h1-text text-5xl font-bold mb-4">I'm Wageesha Narandeniya</h1>
+          <h1 className="h1-text text-5xl font-bold mb-4">I&apos;m Wageesha Narandeniya</h1>
           <h2 className="text-3xl font-semibold mb-4">
             Business Analyst x Frontend Developer<br />
             
           </h2>
           <p className="text-lg">
-            I&apos;m a skilled Frontend Developer passionate about creating intuitive, responsive user interfaces.<br />
-            As a Business Analyst, I bridge the gap between technical teams and stakeholders to deliver effective solutions.
-
-          </p>
+  I&apos;m a skilled Frontend Developer passionate about creating intuitive, responsive user interfaces.<br />
+  As a Business Analyst, I bridge the gap between technical teams and stakeholders to deliver effective solutions.
+</p>
           
 
         </div>
