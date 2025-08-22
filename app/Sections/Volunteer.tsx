@@ -11,7 +11,7 @@ const Volunteer = () => {
         {/* Stack 1 */}
         <div className="col-span-4 w-full h-full ">
           <div className="w-full h-full bg-[rgba(183,121,46,0.15)] rounded-md p-2 md:pl-4">
-            <h1 className="text-white text-xl font-medium py-1 h1-text">Committee Chair - Open Dev Summit'25</h1>
+            <h1 className="text-white text-xl font-medium py-1 h1-text">Committee Chair - Open Dev Summit 2025</h1>
             <h5 className='py-1'>FOSS community, University of Kelaniya </h5>
             <p className="text-gray-100 sm:text-sm text-xs pb-4">
                Leading the organizing committee for a open Dev Summit 2025. Coordinated cross
@@ -40,7 +40,7 @@ const Volunteer = () => {
 
         <div className="col-span-4 w-full h-full">
           <div className="w-full h-full bg-[rgba(183,121,46,0.15)] rounded-md p-2 md:pl-4">
-            <h1 className="text-white text-xl font-medium py-1 h1-text">Moderaor</h1>
+            <h1 className="text-white text-xl font-medium py-1 h1-text">Moderator</h1>git add app/Sections/Volunteer.tsx
             <h5 className='py-1'>FOSS community, University of Kelaniya</h5>
             <p className="text-gray-100 sm:text-sm text-xs pb-4">
               Coordinated and facilitated both online and physical workshops, as well as the Annual
@@ -54,7 +54,7 @@ const Volunteer = () => {
         {/* Stack 3 */}
         <div className="col-span-4 w-full h-full ">
           <div className="w-full h-full bg-[rgba(183,121,46,0.15)] rounded-md p-2 md:pl-4">
-            <h1 className="text-white text-xl font-medium py-1 h1-text"> Membership Coordinator, Elegenza'25</h1>
+            <h1 className="text-white text-xl font-medium py-1 h1-text"> Membership Coordinator, Elegenza 2025</h1>
             <h5 className='py-1'>Leo Club, University of Kelaniya</h5>
             <p className="text-gray-100 sm:text-sm text-xs pb-4">
                Coordinated the organization of an inter-university talent show, providing a platform for
